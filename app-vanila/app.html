@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://miro.com/app/static/sdk/v2/miro.js"></script>
+    <title>App Vanila</title>
+    <style>
+      .secao h2 {
+        height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+      }
+    </style>
+  </head>
+  <body style="background-color: whitesmoke">
+    
+    <div id="root">
+
+      <div class="cs1 ce12">
+        <div class="tabs">
+          <div class="tabs-header-list">
+            <div tabindex="0" class="tab tab-active">
+                <div class="tab-text tab-badge">Tab 1</div>
+            </div>
+            <div tabindex="0" class="tab ">
+              <div class="tab-text tab-badge">Tab 2</div>
+            </div>
+            <div tabindex="0" class="tab">
+              <div class="tab-text tab-badge">tab 3</div>
+            </div>
+            <div tabindex="0" class="tab">
+              <div class="tab-text tab-badge">Tab 4</div>
+            </div>
+            <div tabindex="0" class="tab">
+              <div class="tab-text tab-badge">Tab 5</div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-content-1">
+
+      <div class="secao">
+        <h2>Funnel Pages</h2>
+      </div>
+      
+      <!-- <div class="cs1 ce12">
+        <div class="tabs">
+          <div class="tabs-header-list">
+            <div tabindex="0" class="tab tab-active">
+                <div class="tab-text tab-badge">Tab one</div>
+            </div>
+            <div tabindex="0" class="tab ">
+              <div class="tab-text tab-badge">Tab one</div>
+            </div>
+            <div tabindex="0" class="tab">
+              <div class="tab-text tab-badge">Tab one</div>
+            </div>
+          </div>
+      </div>
+    </div> -->
+
+      <div class="grid">
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/gkMsWa3.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Opt In Page</p>
+        </div>
+
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/Dm8RSg2.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Download Page</p>
+        </div>
+
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/2CE3b92.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Group Invite</p>
+        </div>
+
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/AKAC1Ip.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">PopUp</p>
+        </div>
+
+        <div class="miro-draggble cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/2oZt5Dy.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Thank u Page</p>
+        </div>
+
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/9hSdu4P.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Webinar</p>
+        </div>
+
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/Xo2PQv0.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Sales Page</p>
+        </div>
+
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/WsZmfir.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Vid Sales Page</p>
+        </div>
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/O6unqJH.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">CheckOut Page</p>
+        </div>
+
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/LDIvNvp.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Members Area</p>
+        </div>
+
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/Jn1vLi0.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Home Page</p>
+        </div>
+
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/PsINAnc.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Listing/Search</p>
+        </div>
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/xJlE3zc.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Search Results</p>
+        </div>
+
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/fFtZ2TN.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Pop up</p>
+        </div>
+
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/c5vXYLt.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Thank u page</p>
+        </div>
+
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/MsaK7qY.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Blog Post</p>
+        </div>
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/Mb6aFLz.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Download</p>
+        </div>
+
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/4ODrfOj.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Survey</p>
+        </div>
+
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/uhcDfMj.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Landing Page</p>
+        </div>
+
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/PsCw3UL.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Webinar</p>
+        </div>
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/FUoTbBG.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Contact Page</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/35399QR.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Smart Phone</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/8ZWGAM1.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Order Page</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/xOHr8QM.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Email</p>
+        </div>
+        
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/T94I77k.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Facebook Page</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/D3Xfd5u.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Video Page</p>
+        </div>
+        
+      </div>
+
+    </div>
+
+        <br>
+
+      <div class="tab-content" id="tab-content-2" style="display: none;">
+
+        <div class="secao">
+          <h2>TRAFIC SOURCES</h2>
+        </div>
+
+      <div class="grid">
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/bKZlSPD.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Web Site</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/rAIaVNd.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Affiliates</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/fm6MdFw.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Google</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/u5KDJLR.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Google Ads</p>
+        </div>
+        
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/JnPtxqb.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">YouTube</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/Cp6GbCp.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">YouTube Ads</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/6cYTu8Z.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Facebook</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/OJqJCSG.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Facebook Ads</p>
+        </div>
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/5Qx34kL.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Instagram</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/bSv1jtE.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Instagram Ads</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/ZsxjQJs.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Tik Tok</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/0bMQx6T.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Tik Tok Ads</p>
+        </div>
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/xCP67SC.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Pinterest</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/FivNf1I.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Pinterest Ads</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/NkHXuac.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">LinkedIn</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/qdgf4Vn.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">LinkedIn Ads</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-content-3" style="display: none;">
+
+      <br>
+
+
+      <div class="secao">
+        <h2>TEXT MESSAGES</h2>
+      </div>
+
+      <div class="grid">
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/hPgKoDJ.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Messenger</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/73ef59p.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Facebook Community</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/QcaVjHZ.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">WhatsApp</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/LlcmoYw.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">WhatsApp Community</p>
+        </div>
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/6n50oeW.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Telegram</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/up6XQtv.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Telegram Channel</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="tab-content" id="tab-content-4" style="display: none;">
+      <br>
+
+
+      <div class="secao">
+        <h2>ACTIONS</h2>
+      </div>
+
+      <div class="grid">
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/3GoniuV.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Lead</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/ADV4XIJ.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Download Files</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/KtttECU.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Add To Cart</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/5VaKvjU.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Purchase</p>
+        </div>
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/y1SdNs9.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Email White</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/6TStLof.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Email Sequence</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="tab-content" id="tab-content-5" style="display: none;">
+
+      <br>
+
+
+      <div class="secao">
+        <h2>OTHERS</h2>
+      </div>
+
+      <div class="grid">
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/7i2bvQK.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Maps Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/0AFiMJP.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Messenger Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/Jg30g5y.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Email Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/pA91P01.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Podcast Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/ZeW8rGu.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Game Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/IIaD0y5.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Twitter Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/N3STAnQ.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Facebook Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/S3s1ofu.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">LinkedIn Icon</p>
+        </div>
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/bxr2nOJ.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Instagram Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/54VDm0f.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">YouTube Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/3ZWzxGl.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">SnapChat Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/LaP0vZv.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Instagram Icon2</p>
+        </div>
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/M219aog.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Phone Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/Q4blrO1.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">LapTop Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/ZofFEh3.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Computer Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/brhsXga.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Meeting Icon</p>
+        </div>
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/9MuTMNm.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Print Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/blBMy7U.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Radio</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/Tv8LjSW.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Location Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/qOfMS0c.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Music Icon</p>
+        </div>
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/AmJkLbC.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">SpeeBubble Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/MFh4Le6.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">User Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/zPLFji8.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Calender Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/lwenqbl.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Generic Page</p>
+        </div>
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/hMLO38U.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Facebook Icon2</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/45zoyQS.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Tik Tok Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/XmeQpeS.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">YouTube Shorts</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/dhHUYE1.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Reels</p>
+        </div>
+
+        <div class="miro-draggable cs1 ce3 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/e7tznP0.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Wpp Business</p>
+        </div>
+        
+        <div class="miro-draggable cs4 ce6 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/WjX76H4.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Data Base Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs7 ce9 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/11vkuX1.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Profile Icon</p>
+        </div>
+        
+        <div class="miro-draggable cs10 ce12 placeholder">
+          <img class="miro-draggable" src="https://i.imgur.com/SB9iiRP.png" alt="">
+          <p class="descricao" style="font-size: 10px; text-align: center; line-height: 1; margin: 0;">Chat Icon</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+    
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>
